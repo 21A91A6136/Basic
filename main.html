@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(120deg,pink,lightskyblue,lightgreen);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .service {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+    .service img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .service button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .service button:hover {
+        background-color: #0056b3;
+    }
+    @media only screen and (max-width: 600px) {
+        .service {
+            flex: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+<br><br><br>
+<br>
+<br><br><br><br><br><br>
+<div class="container">
+    <div class="service">
+        <img src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?t=st=1708951458~exp=1708955058~hmac=c18b51a308fc6c45e1833f37ab7023b9d01d4a0da7e650dec041f9be2b948220&w=900" alt="Digital Marketing" style="width:200px; height: 200px;">
+        <br>
+        <a href="digital.html"> <button>Digital Marketing</button></a>
+    </div>
+    <div class="service">
+        <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?t=st=1708952425~exp=1708956025~hmac=eb1d0594073495a5a0d94e9550dc9205021505734b510586da4e56f9e85c47be&w=996" alt="Web Development" style="width:200px; height: 200px;"><br>
+        <a href="webhtm.html"><button>Web Development</button></a>
+    </div>
+</div>
+
+</body>
+</html>
